@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "Download templates",
   "sideEffects": false,
-  "repository": "spalla-dev/starter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spalla-dev/starter.git"
+  },
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
@@ -16,6 +19,9 @@
       "require": "./dist/index.cjs"
     }
   },
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "unbuild",
@@ -35,5 +41,10 @@
     "colorette": "^2.0.19",
     "giget": "^1.1.2",
     "inquirer": "^9.1.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/spalla-dev/starter/issues"
+  },
+  "homepage": "https://github.com/spalla-dev/starter#readme",
+  "author": "Ígor Jacaúna <igor.jacauna@gmail.com>"
 }
