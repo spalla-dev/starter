@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import inquirer, { QuestionCollection } from 'inquirer';
 import { red, bold, green } from 'colorette';
 import { downloadTemplate } from 'giget';
