@@ -1,6 +1,21 @@
 # Changelog
 
 
+## v0.0.3
+
+
+### 🚀 Enhancements
+
+  - **template:** Adiciona template nuxt-firebase (20d7ba4)
+
+### 🩹 Fixes
+
+  - Fix script env (c6205e3)
+
+### ❤️  Contributors
+
+- Igor Jacaúna <igor.jacauna@gmail.com>
+
 ## v0.0.2
 
 

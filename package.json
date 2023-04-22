@@ -1,6 +1,6 @@
 {
   "name": "@spalla-dev/starter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Download templates",
   "sideEffects": false,
   "repository": {
