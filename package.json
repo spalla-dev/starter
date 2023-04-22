@@ -1,6 +1,6 @@
 {
   "name": "@spalla-dev/starter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Download templates",
   "sideEffects": false,
   "repository": {
@@ -29,7 +29,6 @@
     "release:patch": "changelogen --release --patch",
     "release:minor": "changelogen --release --minor",
     "release:major": "changelogen --release --major",
-    "pub": "npm publish",
     "push-release": "git push --follow-tags"
   },
   "devDependencies": {
