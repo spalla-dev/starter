@@ -26,7 +26,11 @@
   "scripts": {
     "build": "unbuild",
     "dev": "esno src/index.ts",
-    "release": "changelogen --release && npm publish && git push --follow-tags"
+    "release:patch": "changelogen --release --patch",
+    "release:minor": "changelogen --release --minor",
+    "release:major": "changelogen --release --major",
+    "pub": "npm publish",
+    "push-release": "git push --follow-tags"
   },
   "devDependencies": {
     "@igorjacauna/eslint-config": "^0.0.8",

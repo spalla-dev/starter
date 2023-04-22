@@ -1,0 +1,14 @@
+{
+  "name": "nuxt-firebase",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/**"
+  ],
+  "scripts": {
+    "components": "yarn workspace lib-components",
+    "server": "yarn workspace server",
+    "webapp": "yarn workspace webapp"
+  }
+}

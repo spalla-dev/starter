@@ -12,9 +12,13 @@ const questions: QuestionCollection = [
     default: 'novo-projeto',
   },
   {
-    type: 'input',
+    type: 'list',
     name: 'template',
     message: 'Qual o template a ser usado?',
+    choices: [
+      { name:'My Vitesse', value: 'my-vitesse' },
+      { name: 'Nuxt Firebase', value: 'nuxt-firebase' },
+    ],
   },
 ];
 

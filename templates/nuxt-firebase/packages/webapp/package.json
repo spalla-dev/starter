@@ -1,0 +1,27 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "firebase deploy"
+  },
+  "devDependencies": {
+    "lib-components": "1.0.0",
+    "server": "1.0.0",
+    "shared": "1.0.0",
+    "@igorjacauna/eslint-config": "^0.3.3",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@types/node": "^18",
+    "eslint": "^8.38.0",
+    "nuxt": "^3.4.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "firebase": "^9.20.0"
+  }
+}
